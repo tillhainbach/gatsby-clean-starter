@@ -1,0 +1,8 @@
+# Ignore artifacts:
+.gitignore
+.git
+
+# ignore rules from .gitignore
+node_modules/
+.cache/
+public
