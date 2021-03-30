@@ -1,9 +1,6 @@
 name: Gatsby Publish Build Validation
 
-on:
-  pull_request:
-    branches:
-      - dev
+on: pull_request
 
 jobs:
   build:
