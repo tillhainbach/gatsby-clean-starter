@@ -9,6 +9,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-eslint',
+    'gatsby-plugin-extract-schema',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
