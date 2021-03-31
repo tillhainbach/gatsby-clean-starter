@@ -1,0 +1,21 @@
+{
+  "title": "Home",
+  "content": "intro.md",
+  "gallery": [
+    {
+      "title": "Telefonzeichnung 01",
+      "copy": "For global styles.",
+      "image": "../images/gallery/Telefonzeichnung_01.jpg"
+    },
+    {
+      "title": "Telefonzeichnung 02",
+      "copy": "Component-based for easy usage.",
+      "image": "../images/gallery/Telefonzeichnung_02.jpg"
+    },
+    {
+      "title": "Telefonzeichnung 05",
+      "copy": "Including a polyfill for Safari.",
+      "image": "../images/gallery/Telefonzeichnung_05.jpg"
+    }
+  ]
+}

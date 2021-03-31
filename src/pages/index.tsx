@@ -12,7 +12,7 @@ const headingStyles: React.CSSProperties = {
   maxWidth: 320,
 };
 const headingAccentStyles: React.CSSProperties = {
-  color: '#663399',
+  color: '#639',
 };
 const paragraphStyles: React.CSSProperties = {
   marginBottom: 48,
@@ -44,6 +44,7 @@ const linkStyle: React.CSSProperties = {
 
 const docLinkStyle: React.CSSProperties = {
   ...linkStyle,
+
   listStyleType: 'none',
   marginBottom: 24,
 };
