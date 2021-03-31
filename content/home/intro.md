@@ -1,0 +1,1 @@
+„....telefoniere ich lange, so greife ich unwillkürlich zum Stift und beginne unabhängig vom Gespräch und nebenher auf irgendeine, gerade in der Nähe liegende Papierunterlage in einer gewissen Selbstvergessenheit zu zeichnen, wobei ein Begriff, ein Wort was gesagt wurde, mich beim Zeichnen inspirieren kann...“
