@@ -70,8 +70,8 @@
     "commit-msg": "npx --no-install commitlint --edit $1"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.css": "stylelint --fix",
-    "*.{js,css,md,json}": "prettier --write"
+    "*.{js,jsx,tx,tsx}": "eslint --cache --fix",
+    "*.{css,js,jsx,tsx,sass,scss}": "stylelint --fix",
+    "*.{js,jsx,tx,tsx,css,md,json}": "prettier --write"
   }
 }
