@@ -6,6 +6,7 @@
 [![Gatsby Publish Build Validation](https://github.com/tillhainbach/gatsby-clean-starter/actions/workflows/build-validation.yaml/badge.svg)](https://github.com/tillhainbach/gatsby-clean-starter/actions/workflows/build-validation.yaml)
 [![Lint Commit Messages](https://github.com/tillhainbach/gatsby-clean-starter/actions/workflows/commitlint.yml/badge.svg)](https://github.com/tillhainbach/gatsby-clean-starter/actions/workflows/commitlint.yml)
 
+
 This starter is based on Fabian Schultz's [Gatsby Universal](https://github.com/fabe/gatsby-universal) a greate, clean starter theme, but unfortunately outdated.
 
 Therefore, let me introduce: **Gatsby Clean Starter** :tada:
