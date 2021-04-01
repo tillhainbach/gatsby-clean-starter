@@ -1,3 +1,3 @@
-type TextSize = 'large' | 'medium' | 'smalle';
+type TextSize = 'large' | 'medium' | 'small';
 
 export default TextSize;
