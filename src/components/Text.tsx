@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import MEDIA from '../styles/Media';
 import TextSize from '../types/CssTypes';
 
@@ -27,7 +27,7 @@ const Text = styled.span<TextProps>`
   line-height: 1.2;
 
   ${MEDIA.tablet`
-    ${css`
+      /* stylelint-disable value-keyword-case */
       font-size: ${({ size }: TextProps) => () => {
         switch (size) {
           case 'large':
@@ -36,7 +36,6 @@ const Text = styled.span<TextProps>`
             return '2rem';
         }
       }};
-    `}
   `};
 `;
 
