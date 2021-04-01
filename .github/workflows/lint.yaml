@@ -3,18 +3,6 @@ name: Linting
 on: pull_request
 
 jobs:
-  commitlint:
-    name: Lint Commit Messages
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out Git repository
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: Run Commit Lint
-      - uses: wagoid/commitlint-github-action@v2
-
   run-linters:
     name: Run linters
     runs-on: ubuntu-latest
