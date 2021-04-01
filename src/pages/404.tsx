@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import Box from '../components/Box';
 
 // styles
 const pageStyles: React.CSSProperties = {
@@ -26,7 +27,7 @@ const codeStyles: React.CSSProperties = {
 
 // markup
 // AirBnb prefer normal functions
-function NotFoundPage() {
+export default function NotFoundPage() {
   return (
     <main style={pageStyles}>
       <title>Not found</title>
@@ -46,10 +47,9 @@ function NotFoundPage() {
           </>
         ) : null}
         <br />
+        <Box />
         <Link to="/">Go home</Link>.
       </p>
     </main>
   );
 }
-
-export default NotFoundPage;

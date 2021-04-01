@@ -16,8 +16,16 @@ import { motion } from 'framer-motion';
 //   },
 // });
 
-export default function AnimatedContainer() {
+interface AnimatedContainerProps {
+  children: React.ReactNode;
+}
+
+export default function AnimatedContainer({
+  children,
+}: AnimatedContainerProps) {
   return (
-    <motion.div transition={{ ease: 'easeInOut' }} exit={{ y: '-100%' }} />
+    <motion.div transition={{ ease: 'easeInOut' }} exit={{ y: '-100%' }}>
+      {children}
+    </motion.div>
   );
 }
