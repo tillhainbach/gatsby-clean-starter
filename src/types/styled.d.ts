@@ -7,9 +7,9 @@ declare module 'styled-components' {
     borderRadius: string;
 
     breakpoints: {
-      desktop: Int16;
-      tablet: Int16;
-      phone: Int16;
+      [desktop: string]: number;
+      [tablet: string]: number;
+      [phone: string]: number;
     };
 
     transition: {

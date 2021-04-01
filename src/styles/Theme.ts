@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'styled-components';
 
-const theme: DefaultTheme = {
+const Theme: DefaultTheme = {
   borderRadius: '5px',
 
   breakpoints: {
@@ -21,4 +21,4 @@ const theme: DefaultTheme = {
   },
 };
 
-export default theme;
+export default Theme;

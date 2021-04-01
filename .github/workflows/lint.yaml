@@ -3,20 +3,8 @@ name: Linting
 on: pull_request
 
 jobs:
-  commitlint:
-    name: Lint Commit Messages
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out Git repository
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: Run Commit Lint
-      - uses: wagoid/commitlint-github-action@v2
-
   run-linters:
-    name: Run linters
+    name: Code Linting
     runs-on: ubuntu-latest
 
     steps:
@@ -41,3 +29,12 @@ jobs:
           prettier_extensions: 'js,jsx,tx,tsx,css,md,json'
           stylelint: true
           stylelint_extensions: 'css,js,jsx,tsx,sass,scss'
+
+  commitlint:
+    name: Commit Linting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: wagoid/commitlint-github-action@v2
