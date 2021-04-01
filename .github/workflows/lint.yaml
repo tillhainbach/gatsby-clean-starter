@@ -4,7 +4,7 @@ on: pull_request
 
 jobs:
   run-linters:
-    name: Run linters
+    name: Code Linting
     runs-on: ubuntu-latest
 
     steps:
@@ -31,6 +31,7 @@ jobs:
           stylelint_extensions: 'css,js,jsx,tsx,sass,scss'
 
   commitlint:
+    name: Commit Linting
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
